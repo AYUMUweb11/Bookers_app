@@ -1,0 +1,10 @@
+
+
+<P><strong>Title</strong>:<%= @book.title %></P>
+
+<P><strong>Body:</strong><%= @book.body %></P>
+
+<ul class="-url">
+<li><%= link_to "Edit", edit_book_path(@book.id) %></li>
+<li><%= link_to "back", books_path %></li>
+</ul
